@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Ecology Resort | Book Now</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h2>Ecology Resort</h2>
+            <p>Where Nature Meets Comfort</p>
+        </div>
+
+        <div>
+            <form>
+                <input type="search" placeholder="Search">
+            </form>
+        </div>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="rooms.html">Rooms & Villas</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="book.html">Book Now</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1>Reserve Your Stay</h1>
+            <p>
+                Plan your relaxing getaway at Ecology Resort. Fill out the booking form below and our team will contact
+                you to confirm your reservation.
+            </p>
+        </section>
+
+        <section>
+            <h2>Booking Details</h2>
+            <form>
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="phone">Contact Number:</label><br>
+                    <input type="tel" id="phone" name="phone" required>
+                </p>
+
+                <p>
+                    <label for="room">Room / Villa Type:</label><br>
+                    <select id="room" name="room" required>
+                        <option value="">-- Select --</option>
+                        <option value="garden">Garden View Room</option>
+                        <option value="family">Family Villa</option>
+                        <option value="beachfront">Beachfront Villa</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="checkin">Check-in Date:</label><br>
+                    <input type="date" id="checkin" name="checkin" required>
+                </p>
+
+                <p>
+                    <label for="checkout">Check-out Date:</label><br>
+                    <input type="date" id="checkout" name="checkout" required>
+                </p>
+
+                <p>
+                    <label for="guests">Number of Guests:</label><br>
+                    <input type="number" id="guests" name="guests" min="1" required>
+                </p>
+
+                <p>
+                    <label for="requests">Special Requests:</label><br>
+                    <textarea id="requests" name="requests" rows="4"></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Submit Booking Request</button>
+                </p>
+            </form>
+        </section>
+
+
+        <section>
+            <h2>Important Notes</h2>
+            <p>
+                • Advance booking is recommended, especially during weekends and holidays.<br>
+                • A confirmation message will be sent after reviewing your request.<br>
+                • Down payment may be required to secure your reservation.
+            </p>
+        </section>
+
+    </main>
+    <footer>
+        <p>Email: info@ecologyresort.com</p>
+        <p>Phone: +63 912 345 8457</p>
+        <p>Location: Bingag, Dauis, Panglao, Bohol, Philippines</p>
+    </footer>
+</body>
+
+</html>
